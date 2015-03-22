@@ -1,0 +1,231 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
+#firstheading {
+    font-size: xx-large;
+    color: #333333;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+
+#secondheading {
+    color: #808080;
+    font-size: large;
+    word-spacing: 1px;
+}
+
+#update {
+    text-decoration: underline;
+    font-size: 10pt;
+    font-family: Arial;
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+#FB {
+    float: right;
+    width: 25px;
+    height: 25px;
+}
+
+#topimage {
+    margin: auto;
+    width: 766px;
+    height: 213px;
+    padding-bottom: 30px;
+}
+/*==========================
+ Top Menu
+===========================*/
+
+#menu {
+    align-content: center;
+    width: 766px;
+    margin: auto;
+    list-style: none;
+    font-family: fantasy;
+}
+
+#menu ul,
+#menu ul li {
+    list-style: none;
+    display: block;
+}
+
+#menu li {
+    display: inline-block!important;
+    height: 1.5em;
+    line-height: 1.5em;
+    position: relative;
+}
+
+#menu li a {
+    margin: center;
+    text-decoration: none;
+    display: block;
+    border: none;
+    vertical-align: middle;
+    padding: 0px 5px;
+    font-family: Tahoma;
+    color: #333333;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    left: .5em;
+    background: #FFFFFF;
+}
+
+#menu li:hover ul {
+    display: block;
+    float: none;
+}
+
+#menu li ul li {
+    float: none;
+    width: 100%;
+}
+
+#menu li ul li a {
+    display: block;
+    border: none;
+    vertical-align: middle;
+    padding: 0 .5em;
+    font-family: Tahoma;
+    color: #666666;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+#menu li ul li + li {
+    margin-top: -1px;
+}
+/*==========================
+ Links
+===========================*/
+
+div a {
+    float: left;
+    height: 30px;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #555555;
+    font-weight: bold;
+}
+
+div a:hover {
+    color: #FF6600;
+}
+/*==========================
+ Artist Database Table
+===========================*/
+
+div.names {
+    margin: auto;
+    width: 980px;
+}
+
+.adbtextbox {
+    text-align: left;
+    width: 153.2px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+#line {
+    clear: both;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+#nav a {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+div.item {
+    display: inline-block;
+    margin: 18px;
+    width: 120px;
+}
+
+.picture_caption {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #555555;
+}
+
+#ArtistDatabase {
+    color: #F44500;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px;
+}
+
+div a {
+    float: left;
+    height: 30px;
+}
+
+#artworks {
+    clear: left;
+    text-decoration: none;
+    color: #F44500;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: url(images_gallery/bg.gif);
+}
+
+#bottomMenu {
+    list-style: none;
+    padding: 60px 30px 60px 150px;
+    color: red;
+}
+
+#bottomMenu li a {
+    color: red;
+}
+
+#blackbox span {
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#blackbox {
+    clear: both;
+    width: 791px;
+    height: 150px;
+    background-color: black;
+    margin: auto;
+}
+
+footer p {
+    margin: auto;
+    font-size: 10.0pt;
+    font-family: Arial, sans-serif;
+    width: 791px;
+    height: 138px;
+}
+
+#slides {
+    background-color: #49361E;
+}

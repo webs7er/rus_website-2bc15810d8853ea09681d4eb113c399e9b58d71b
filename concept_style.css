@@ -1,0 +1,208 @@
+* {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF3300;
+}
+
+a:hover {
+    font-weight: normal;
+}
+
+#backgr {
+    clear: both;
+    background-color: black;
+    width: 890px;
+    height: 2040px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images_concept/bg6.gif);
+    background-image: url(images_concept/bg9.gif);
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: url(images_gallery/bg.gif);
+}
+
+#menu {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+#menu li {
+    list-style: none;
+    float: left;
+    height: 25px;
+    padding: 0 3px 0 3px;
+    position: relative;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-family: Calibri, Tahoma, Arial;
+    color: #333333;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    color: #FF3333;
+}
+
+#menu li ul {
+    position: absolute;
+    display: none;
+    top: 1.5em;
+    left: 0.5em;
+    padding: 0;
+    background: #ff9933;
+}
+
+#menu li ul li {
+    margin: 10px 0 10px 0;
+    height: 15px;
+    float: none;
+    width: 100%;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li ul li a {
+    display: block;
+    font-family: Tahoma;
+    color: #333333;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+#walloftext {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Calibri, sans-serif;
+    float: left;
+    width: 60%;
+    text-align: left;
+    color: #FF9933;
+}
+
+#allsix {
+    width: 40%;
+    float: left;
+}
+
+#firstLeft {
+    width: 308px;
+    height: 89px;
+    float: left;
+}
+
+#backgr p span1 {
+    width: 570px;
+    border-style: none;
+    border-width: medium;
+    font-family: arial;
+    color: rgb(255, 153, 51);
+    letter-spacing: 1pt;
+    font-size: large;
+}
+
+#backgr p span2 {
+    width: 570px;
+    border-style: none;
+    border-width: medium;
+    font-family: arial;
+    color: rgb(255, 0, 0);
+    letter-spacing: 1pt;
+    font-size: small;
+    font-weight: bold;
+}
+
+.subheading {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#banner {
+    height: 20px;
+    font-family: fantasy;
+    background-color: rgb(255, 153, 51);
+}
+
+div.item {
+    width: 250px;
+    margin: 25px;
+    border: 3px solid #000000;
+    border-color: gray;
+}
+
+div.images_gallery img {
+    width: 246px;
+    height: 183px;
+}
+
+.picture_caption {
+    font-family: Calibri;
+    font-size: medium;
+    color: rgb(255, 153, 51);
+    text-align: left;
+}
+
+#banner1 {
+    height: 20px;
+    font-family: fantasy;
+    background-color: rgb(255, 153, 51);
+}
+
+#div_bottomMenu {
+    display: inline;
+}
+
+#bottomMenu {
+    list-style: none;
+    padding-top: 40px;
+    color: red;
+}
+
+#bottomMenu li a {
+    color: red;
+    font-weight: bold;
+}
+
+#bottomMenu li {
+    display: inline;
+}
+
+#mailto li {
+    list-style: none;
+    margin-top: 50px;
+}
+
+#mailto a {
+    text-decoration: none;
+    color: rgb(255, 153, 51);
+    font-weight: bold;
+    font-size: small;
+}
+
+footer p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 10.0pt;
+    font-family: Arial, sans-serif;
+    width: 791px;
+    height: 138px;
+    color: rgb(255, 0, 0);
+}
