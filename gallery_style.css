@@ -5,6 +5,7 @@
 }
 
 #firstheading {
+    margin-top: 15px;
     font-size: xx-large;
     color: #333333;
     font-weight: bold;
@@ -18,26 +19,35 @@
 }
 
 #update {
+    height: 50px;
+}
+
+#update a {
+    margin-top: 5px;
+    float: right;
     text-decoration: underline;
     font-size: 10pt;
     font-family: Arial;
-    float: right;
-    padding: 10px;
     font-weight: bold;
     color: #555;
 }
 
-#FB {
+#update a:hover {
+    color: #FF6600;
+}
+
+#update img {
+    margin: 0 25px 0 10px;
     float: right;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 #topimage {
     margin: auto;
     width: 766px;
     height: 213px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 /*==========================
  Top Menu
@@ -51,14 +61,13 @@
     font-family: fantasy;
 }
 
-#menu ul,
 #menu ul li {
     list-style: none;
     display: block;
 }
 
 #menu li {
-    display: inline-block!important;
+    display: inline-block;
     height: 1.5em;
     line-height: 1.5em;
     position: relative;
@@ -86,8 +95,13 @@
 }
 
 #menu li:hover ul {
+    width: 100px;
     display: block;
     float: none;
+}
+
+#menu li ul li:hover {
+    background: lightgray;
 }
 
 #menu li ul li {
@@ -132,7 +146,7 @@ div a:hover {
 
 div.names {
     margin: auto;
-    width: 980px;
+    width: 766px;
 }
 
 .adbtextbox {
@@ -160,11 +174,9 @@ div.item {
     width: 120px;
 }
 
-.picture_caption {
-    font-family: Arial;
-    font-size: 10pt;
-    font-weight: bold;
-    color: #555555;
+div.item a {
+    width: inherit;
+    height: auto;
 }
 
 #ArtistDatabase {
@@ -204,18 +216,20 @@ body {
     color: red;
 }
 
-#blackbox span {
+#blackbox </a> {
     color: darkgoldenrod;
     font-weight: bold;
     font-size: 10pt;
 }
 
 #blackbox {
+    margin-top: 20px;
     clear: both;
     width: 791px;
     height: 150px;
     background-color: black;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer p {
@@ -227,5 +241,5 @@ footer p {
 }
 
 #slides {
-    background-color: #49361E;
+    margin: auto;
 }
